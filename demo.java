@@ -56,5 +56,8 @@ public class demo {
         else if (score > 90) {
             System.out.println("mac");
         }
+        else if (score > 90) {
+            System.out.println("mac");
+        }
     }
 }
