@@ -35,11 +35,6 @@
 //     }
 // }
 
-
-
-
-
-
 public class demo {
 
     public static void main(String[] args) {
@@ -56,8 +51,6 @@ public class demo {
         else if (score > 90) {
             System.out.println("mac");
         }
-        else if (score > 90) {
-            System.out.println("mac");
-        }
+
     }
 }
