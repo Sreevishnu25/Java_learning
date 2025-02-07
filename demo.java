@@ -38,10 +38,10 @@
 public class demo {
 
     public static void main(String[] args) {
-        int score = 40;
+        int score = 50;
 
-        if (score > 35 && score < 60) {
-            System.out.println("vg");
+        if (score > 50 && score < 60) {
+            System.out.println("Need to improve");
         }
 
         else if (score > 60 && score <= 90) {
