@@ -206,6 +206,6 @@ public class q2 {
         } else {
             System.out.println("error");
         }
-
+        scna.close();
     }
 }

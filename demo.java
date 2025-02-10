@@ -35,22 +35,42 @@
 //     }
 // }
 
+// public class demo {
+
+//     public static void main(String[] args) {
+//         int score = 50;
+
+//         if (score > 50 && score < 60) {
+//             System.out.println("Need to improve");
+//         }
+
+//         else if (score > 60 && score <= 90) {
+//             System.out.println("Iphone");
+//         }
+
+//         else if (score > 90) {
+//             System.out.println("mac");
+//         }
+
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
 public class demo {
 
     public static void main(String[] args) {
         int score = 50;
 
-        if (score > 50 && score < 60) {
-            System.out.println("Need to improve");
-        }
-
-        else if (score > 60 && score <= 90) {
-            System.out.println("Iphone");
-        }
-
-        else if (score > 90) {
-            System.out.println("mac");
-        }
-
+        String result = score > 12 ? "Need to improve" : "Good";
+        System.out.println(result);
     }
 }
