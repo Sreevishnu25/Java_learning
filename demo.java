@@ -62,15 +62,48 @@
 
 
 
+// import java.util.Scanner;
+
+
+// public class demo {
+
+//     public static void main(String[] args) {
+
+//         Scanner scan = new Scanner(System.in);
+
+//         int score = scan.nextInt();
+//         int score1 = scan.nextInt();  
+
+//         String result = score > score1 ? "score" : "score1";
+//         System.out.println(result);
+
+//         scan.close();
+//     }
+// }
 
 
 
-public class demo {
 
-    public static void main(String[] args) {
-        int score = 50;
 
-        String result = score > 12 ? "Need to improve" : "Good";
-        System.out.println(result);
-    }
-}
+
+
+
+
+
+// public class demo {
+
+//     public static void main(String[] args) {
+
+//          boolean rain = false;
+
+//         String result = rain ? "umnerlla" : "sunlight";
+//         System.out.println(result);
+//     }
+// }
+
+
+
+
+
+
+
