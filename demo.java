@@ -127,26 +127,64 @@
 
 
 
-import java.util.Scanner;
+// import java.util.Scanner;
+
+// public class demo {
+
+//     public static void main(String[] args) {
+        
+//         int[] score = new int[5];
+
+//         Scanner scan = new Scanner(System.in);
+
+//         score[0] = scan.nextInt();
+//         score[1] = scan.nextInt();
+//         score[2] = scan.nextInt();
+//         score[3] = scan.nextInt();
+//         score[4] = scan.nextInt();
+
+
+
+//         System.out.println(score[0] + score[1] + score[2] + score[3] + score[4]);
+
+//         scan.close();
+//     }
+// }
+
+
+
+
+
+
+// public class demo {
+
+//     public static void main(String[] args) {
+        
+//         for (int j =1 ; j<=3; j++)
+//         {
+//             for (int i = 1; i<=1; i++)
+//             {
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+
+//     }
+// }
+
+
+
 
 public class demo {
 
     public static void main(String[] args) {
         
-        int[] score = new int[5];
+        for (int j =1; j <=3; j++){
+            for (int i =1; i<=j; i++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
 
-        Scanner scan = new Scanner(System.in);
-
-        score[0] = scan.nextInt();
-        score[1] = scan.nextInt();
-        score[2] = scan.nextInt();
-        score[3] = scan.nextInt();
-        score[4] = scan.nextInt();
-
-
-
-        System.out.println(score[0] + score[1] + score[2] + score[3] + score[4]);
-
-        scan.close();
     }
 }
