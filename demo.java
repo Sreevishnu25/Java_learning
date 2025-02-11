@@ -55,15 +55,7 @@
 //     }
 // }
 
-
-
-
-
-
-
-
 // import java.util.Scanner;
-
 
 // public class demo {
 
@@ -81,15 +73,6 @@
 //     }
 // }
 
-
-
-
-
-
-
-
-
-
 // public class demo {
 
 //     public static void main(String[] args) {
@@ -101,17 +84,10 @@
 //     }
 // }
 
-
-
-
-
-
-
-
 // public class demo {
 
 //     public static void main(String[] args) {
-        
+
 //         for (int i= 10; i>=1; i = i-1)
 //         {
 //             System.out.println(i);
@@ -120,19 +96,12 @@
 //     }
 // } 
 
-
-
-
-
-
-
-
 // import java.util.Scanner;
 
 // public class demo {
 
 //     public static void main(String[] args) {
-        
+
 //         int[] score = new int[5];
 
 //         Scanner scan = new Scanner(System.in);
@@ -143,23 +112,16 @@
 //         score[3] = scan.nextInt();
 //         score[4] = scan.nextInt();
 
-
-
 //         System.out.println(score[0] + score[1] + score[2] + score[3] + score[4]);
 
 //         scan.close();
 //     }
 // }
 
-
-
-
-
-
 // public class demo {
 
 //     public static void main(String[] args) {
-        
+
 //         for (int j =1 ; j<=3; j++)
 //         {
 //             for (int i = 1; i<=1; i++)
@@ -172,13 +134,10 @@
 //     }
 // }
 
-
-
-
 // public class demo {
 
 //     public static void main(String[] args) {
-        
+
 //         for (int j = 3; j >= 1; j--){
 //             for (int i =1; i<=j; i++){
 //                 System.out.print("*");
@@ -189,6 +148,22 @@
 //     }
 // }
 
+// import java.util.Random;
+
+// public class demo {
+
+//     public static void main(String[] args) {
+
+//         int j =1;
+
+//         while (j<=10){
+//             System.out.println(j);
+//             j++;
+//         }
+//     }
+// } 
+
+
 
 
 import java.util.Random;
@@ -197,11 +172,20 @@ public class demo {
 
     public static void main(String[] args) {
         
-        int j =1;
+        Random rand = new Random();
 
-        while (j<=10){
-            System.out.println(j);
-            j++;
+        int newnum = 0;
+
+        while (newnum !=5) {
+
+            newnum = rand.nextInt(6);
+            System.out.println(newnum);
+            
         }
     }
-} 
+}
+
+
+
+
+
