@@ -23,6 +23,13 @@ public class laptop {
         lap2.ram = 16;
         lap2.price = 800;
 
+        laptop  lap3 = new laptop();
+
+        lap3.name = "amd";
+        lap3.proc = "ryzen";
+        lap3.ram = 32;
+        lap3.price = 1000;
+
 
         System.out.println(lap2.price);
 
