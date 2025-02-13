@@ -202,24 +202,44 @@
 
 
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
-public class demo {
+// public class demo {
 
-    public static void main(String[] args) {
+//     public static void main(String[] args) {
         
-        Scanner scan = new Scanner(System.in);
-        int count = 0;
+//         Scanner scan = new Scanner(System.in);
+//         int count = 0;
 
-        do{
-            System.out.println("Enter the number > 10");
-            count = scan.nextInt();
+//         do{
+//             System.out.println("Enter the number > 10");
+//             count = scan.nextInt();
         
 
             
-        }while(count < 10);
+//         }while(count < 10);
 
-        scan.close();
+//         scan.close();
 
+//     }
+// }
+
+
+
+
+
+
+public class demo {
+
+    void greeting()
+    {
+        System.out.println("vanakam");
     }
+
+    public static void main(String[] args) {
+        
+        demo obj = new demo();
+        obj.greeting();
+    }
+
 }
