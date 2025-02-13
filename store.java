@@ -51,12 +51,26 @@ public class store {
        
     }
 
+    void sub(int a, int b){
+
+        System.out.println(a-b);
+
+    }
+
+    void mul(int a, int b){
+
+        System.out.println(a*b);
+
+    }
+
     
 
     public static void main(String[] args) {
        
        store obj1 = new store();
          obj1.sum(10,20);
+         obj1.sub(20,10);
+         obj1.mul(10,20);
 
     }
 
