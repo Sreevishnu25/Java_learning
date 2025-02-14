@@ -248,17 +248,37 @@
 
 
 
-public class demo {
+// public class demo {
 
-    void display()
-    {
-        System.out.println("vanakam");
-    }
+//     void display(int a , int b){
+//         System.out.println(a+b);
+//     }
+    
+//     void display(int a, int b, int c){
+//         System.out.println(a+b+c);
+//     }
 
-    public static void main(String[] args) {
+//     public static void main(String[] args) {
         
-        demo obj = new demo();
-        obj.display();
-    }
+//         demo obj = new demo();
+//         obj.display(2, 3,4);
+//     }
 
-}
+// }
+
+
+
+
+
+
+// public class demo {
+
+//     public static void main(String[] args) {
+        
+//         String num[] = {"one","two"};
+
+//         for (String var: num){
+//             System.out.println(var);
+//         }
+//     }
+// }
