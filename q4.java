@@ -34,13 +34,13 @@ import java.util.Scanner;
 
 public class q4 {
 
-    void passorfail(int marks){
+    String passorfail(int marks){
 
         if (marks >= 40){
-            System.out.println("You have passed the exam");
+            return "You have passed the exam";
         }
         else{
-            System.out.println("You have failed the exam");
+            return "You have failed the exam";
         }
 
     }
@@ -52,7 +52,9 @@ public class q4 {
 
         int num = scan.nextInt();
 
-        obj1.passorfail(num);
+        String hou = obj1.passorfail(num);
+
+        System.out.println(hou);
 
         scan.close();
         

@@ -229,9 +229,28 @@
 
 
 
+// public class demo {
+
+//     void greeting()
+//     {
+//         System.out.println("vanakam");
+//     }
+
+//     public static void main(String[] args) {
+        
+//         demo obj = new demo();
+//         obj.greeting();
+//     }
+
+// }
+
+
+
+
+
 public class demo {
 
-    void greeting()
+    void display()
     {
         System.out.println("vanakam");
     }
@@ -239,7 +258,7 @@ public class demo {
     public static void main(String[] args) {
         
         demo obj = new demo();
-        obj.greeting();
+        obj.display();
     }
 
 }
