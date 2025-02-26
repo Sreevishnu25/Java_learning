@@ -59,88 +59,63 @@
 
 
 
-// // class vehicle{
-// // 	String brand;
-// // 	int year;
+// class vehicle{
+// 	String brand;
+// 	int year;
 	
-// // 	void startengine() {
-// // 		System.out.println("Engine Started");
-// // 	}
-// // }
+// 	void startengine() {
+// 		System.out.println("Engine Started");
+// 	}
+// }
 
-// // class car extends vehicle{
-// // 	String fueltype;
+// class car extends vehicle{
+// 	String fueltype;
 	
-// // 	@Override
-// // 	void startengine() {
-// // 		System.out.println("car engine starts");
-// // 	}
+// 	@Override
+// 	void startengine() {
+// 		System.out.println("car engine starts");
+// 	}
 	
-// // 	void drive() {
-// // 		System.out.println("car is driving");
-// // 	}
+// 	void drive() {
+// 		System.out.println("car is driving");
+// 	}
 	
-// // }
-
-
-// // class truck extends vehicle{
-// // 	int loadcapacity;
-	
-// // 	@Override
-// // 	void startengine() {
-// // 		System.out.println("truck engine starts");
-// // 	}
-	
-// // 	void haul() {
-// // 		System.out.println("truck is hauling");
-// // 	}
-	
-// // }
+// }
 
 
+// class truck extends vehicle{
+// 	int loadcapacity;
+	
+// 	@Override
+// 	void startengine() {
+// 		System.out.println("truck engine starts");
+// 	}
+	
+// 	void haul() {
+// 		System.out.println("truck is hauling");
+// 	}
+	
+// }
 
-// // public class q5{
-// // 	public static void main(String[] args) {
-// // 		car c1 = new car();
-// // 		c1.brand = "bmw";
-// // 		c1.year = 2002;
-// // 		c1.fueltype = "petrol";
-// // 		c1.startengine();
-// // 		c1.drive();
-// // 		System.out.println(c1.brand);
+
+
+// public class q5{
+// 	public static void main(String[] args) {
+// 		car c1 = new car();
+// 		c1.brand = "bmw";
+// 		c1.year = 2002;
+// 		c1.fueltype = "petrol";
+// 		c1.startengine();
+// 		c1.drive();
+// 		System.out.println(c1.brand);
 		
-// // 		truck t1 = new truck();
-// // 		t1.brand = "tata";
-// // 		t1.year = 2005;
-// // 		t1.loadcapacity = 10;
-// // 		t1.startengine();
-// // 		t1.haul();
-// // 	}
-// // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// 		truck t1 = new truck();
+// 		t1.brand = "tata";
+// 		t1.year = 2005;
+// 		t1.loadcapacity = 10;
+// 		t1.startengine();
+// 		t1.haul();
+// 	}
+// }
 
 
