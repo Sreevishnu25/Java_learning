@@ -163,15 +163,12 @@
 //     }
 // } 
 
-
-
-
 // import java.util.Random;
 
 // public class demo {
 
 //     public static void main(String[] args) {
-        
+
 //         Random rand = new Random();
 
 //         int newnum = 0;
@@ -180,54 +177,38 @@
 
 //             newnum = rand.nextInt(6);
 //             System.out.println(newnum);
-            
+
 //         }
 //     }
 // }
-
-
-
-
-
 
 // import java.util.Random;
 
 // public class demo {
 
 //     public static void main(String[] args) {
-        
-        
+
 // }
-
-
-
 
 // import java.util.Scanner;
 
 // public class demo {
 
 //     public static void main(String[] args) {
-        
+
 //         Scanner scan = new Scanner(System.in);
 //         int count = 0;
 
 //         do{
 //             System.out.println("Enter the number > 10");
 //             count = scan.nextInt();
-        
 
-            
 //         }while(count < 10);
 
 //         scan.close();
 
 //     }
 // }
-
-
-
-
-
 
 // public class demo {
 
@@ -237,48 +218,39 @@
 //     }
 
 //     public static void main(String[] args) {
-        
+
 //         demo obj = new demo();
 //         obj.greeting();
 //     }
 
 // }
 
-
-
-
-
 // public class demo {
 
 //     void display(int a , int b){
 //         System.out.println(a+b);
 //     }
-    
+
 //     void display(int a, int b, int c){
 //         System.out.println(a+b+c);
 //     }
 
 //     public static void main(String[] args) {
-        
+
 //         demo obj = new demo();
 //         obj.display(2, 3,4);
 //     }
 
 // }
 
+public class demo {
 
+    public static void main(String[] args) {
 
+        String num[] = { "one", "two" };
 
-
-
-// public class demo {
-
-//     public static void main(String[] args) {
-        
-//         String num[] = {"one","two"};
-
-//         for (String var: num){
-//             System.out.println(var);
-//         }
-//     }
-// }
+        for (String var : num) {
+            System.out.println(var);
+        }
+    }
+}
