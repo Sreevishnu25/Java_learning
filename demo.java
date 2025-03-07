@@ -314,37 +314,87 @@
 
 // ----------------------------------------------------------------------------------------------------------
 
-interface playable {
-    void play();
+// interface playable {
+//     void play();
 
+// }
+
+// class guitar implements playable {
+
+//     @Override
+//     public void play() {
+//         System.out.println("play guitar");
+
+//     }
+
+// }
+
+// class piano implements playable {
+
+//     @Override
+//     public void play() {
+//         System.out.println("play piano");
+
+//     }
+// }
+
+// public class demo {
+//     public static void main(String[] args) {
+
+//         piano c1 = new piano();
+//         c1.play();
+//         guitar g1 = new guitar();
+//         g1.play();
+
+//     }
+
+// }
+
+// ----------------------------------------------------------------------------------------------------------
+
+interface read {
+    void readable();
 }
 
-class guitar implements playable {
+interface write {
+    void writable();
+}
+
+interface store {
+    void storable();
+}
+
+class ca implements read, write, store {
 
     @Override
-    public void play() {
-        System.out.println("play guitar");
+    public void readable() {
+
+        System.out.println("reading");
 
     }
 
-}
+    @Override
+    public void writable() {
 
-class piano implements playable {
+        System.out.println("writing");
+
+    }
 
     @Override
-    public void play() {
-        System.out.println("play piano");
+    public void storable() {
+
+        System.out.println("storing");
 
     }
 }
 
 public class demo {
     public static void main(String[] args) {
+        ca r1 = new ca();
 
-        piano c1 = new piano();
-        c1.play();
-        guitar g1 = new guitar();
-        g1.play();
+        r1.readable();
+        r1.writable();
+        r1.storable();
 
     }
 
