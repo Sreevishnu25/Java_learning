@@ -502,3 +502,80 @@
 // }
 
 // ----------------------------------------------------------------------------------------------------------
+
+// import java.io.BufferedReader;
+// import java.io.FileReader;
+
+// public class demo {
+//     public static void main(String[] args) {
+
+//         try {
+//             FileReader fr = new FileReader("output.txt");
+//             BufferedReader br = new BufferedReader(fr);
+
+//             String line = br.readLine();
+
+//             while (line != null) {
+//                 System.out.print(line);
+//                 line = br.readLine();
+//             }
+
+//             br.close();
+
+//         } catch (Exception e) {
+//             System.out.print("something has happened");
+//         }
+
+//     }
+
+// }
+
+// ----------------------------------------------------------------------------------------------------------
+
+// class a extends Thread {
+//     public void run() {
+//         for (int i = 0; i < 10; i++) {
+//             System.out.println("hey hello");
+//             try {
+//                 Thread.sleep(10);
+//             } catch (InterruptedException e) {
+//                 e.printStackTrace();
+//             }
+
+//         }
+//     }
+// }
+
+// class b extends Thread {
+//     public void run() {
+//         for (int i = 0; i < 10; i++) {
+//             System.out.println("okay byeee");
+//             try {
+//                 Thread.sleep(10);
+//             } catch (InterruptedException e) {
+//                 e.printStackTrace();
+//             }
+
+//         }
+//     }
+// }
+
+// public class demo {
+//     public static void main(String[] args) {
+
+//         a a1 = new a();
+//         b b1 = new b();
+
+//         b1.setPriority(10);
+//         a1.setPriority(2);
+
+//         a1.start();
+//         b1.start();
+
+//     }
+
+// }
+
+// ----------------------------------------------------------------------------------------------------------
+
+
