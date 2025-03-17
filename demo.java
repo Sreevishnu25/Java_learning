@@ -404,22 +404,91 @@
 
 
 
-public class demo{
-	public static void main(String[ ] args) {
+// public class demo{
+// 	public static void main(String[ ] args) {
 		
 
-		try {
-			int a = 10;
-			throw new ArithmeticException();
-		}
-		catch(ArithmeticException e)
-		{
-			System.out.println(e);
-		}
-		System.out.println("prgram ended");
-	}
-}
+// 		try {
+// 			int a = 10;
+// 			throw new ArithmeticException();
+// 		}
+// 		catch(ArithmeticException e)
+// 		{
+// 			System.out.println(e);
+// 		}
+// 		System.out.println("prgram ended");
+// 	}
+// }
 
 
 // ----------------------------------------------------------------------------------------------------------
 
+
+
+
+// import java.util.Scanner;
+
+// class divisioneg{
+// 	void dividenum(int num, int den) {
+		
+// 		try {
+// 			int result = num/den;
+// 			System.out.println(result);
+// 		}
+// 		catch(ArithmeticException e) {
+// 			System.err.print("cannot divide");
+// 		}
+// 	}
+// }
+
+
+
+// public class demo{
+// 	public static void main(String[ ] args) {
+		
+// 		Scanner scan = new Scanner(System.in);
+// 		int n1 = scan.nextInt();
+// 		int n2 = scan.nextInt();
+		
+// 		divisioneg d1 = new divisioneg();
+// 		d1.dividenum(n1, n2);
+		
+// 	}
+    
+// }
+
+
+// ----------------------------------------------------------------------------------------------------------
+
+
+
+// import java.util.Scanner;
+
+// class invalidageex extends Exception{
+// 	public invalidageex(String message) {
+// 		super(message);
+// 	}
+// }
+
+
+// class agevalid{
+// 	void checkage(int age) {
+		
+// 		try {
+// 			if(age<0 || age>150)
+// 			{
+// 				throw new invalidageex("age is invalid");			
+// 		}
+// 		else {
+// 			System.out.println("valid age");
+// 		}
+// 	}
+// 		catch (Exception e){
+// 			System.out.println(e);
+			
+// 		}
+// 	}
+// }
+
+
+// ----------------------------------------------------------------------------------------------------------------
