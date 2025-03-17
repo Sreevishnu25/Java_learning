@@ -352,52 +352,74 @@
 
 // ----------------------------------------------------------------------------------------------------------
 
-interface read {
-    void readable();
-}
+// interface read {
+//     void readable();
+// }
 
-interface write {
-    void writable();
-}
+// interface write {
+//     void writable();
+// }
 
-interface store {
-    void storable();
-}
+// interface store {
+//     void storable();
+// }
 
-class ca implements read, write, store {
+// class ca implements read, write, store {
 
-    @Override
-    public void readable() {
+//     @Override
+//     public void readable() {
 
-        System.out.println("reading");
+//         System.out.println("reading");
 
-    }
+//     }
 
-    @Override
-    public void writable() {
+//     @Override
+//     public void writable() {
 
-        System.out.println("writing");
+//         System.out.println("writing");
 
-    }
+//     }
 
-    @Override
-    public void storable() {
+//     @Override
+//     public void storable() {
 
-        System.out.println("storing");
+//         System.out.println("storing");
 
-    }
-}
+//     }
+// }
 
-public class demo {
-    public static void main(String[] args) {
-        ca r1 = new ca();
+// public class demo {
+//     public static void main(String[] args) {
+//         ca r1 = new ca();
 
-        r1.readable();
-        r1.writable();
-        r1.storable();
+//         r1.readable();
+//         r1.writable();
+//         r1.storable();
 
-    }
+//     }
 
-}
+// }
 
 // ----------------------------------------------------------------------------------------------------------
+
+
+
+public class demo{
+	public static void main(String[ ] args) {
+		
+
+		try {
+			int a = 10;
+			throw new ArithmeticException();
+		}
+		catch(ArithmeticException e)
+		{
+			System.out.println(e);
+		}
+		System.out.println("prgram ended");
+	}
+}
+
+
+// ----------------------------------------------------------------------------------------------------------
+
