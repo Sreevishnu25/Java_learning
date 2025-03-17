@@ -2,16 +2,16 @@
 
 // public class demo {
 
-//     public static void main(String[] args) 
-//     {
-//         // Scanner scan = new Scanner(System.in);
+// public static void main(String[] args)
+// {
+// // Scanner scan = new Scanner(System.in);
 
-//         String  a = "apple";
-//         String b = "appl";
+// String a = "apple";
+// String b = "appl";
 
-//         System.out.println(a.equals(b));
+// System.out.println(a.equals(b));
 
-//     }
+// }
 // }
 
 // ----------------------------------------------------------------------------------------------------------
@@ -20,43 +20,43 @@
 
 // public class demo {
 
-//         public static void main(String[] args) {
+// public static void main(String[] args) {
 
-//         Scanner scan  = new Scanner(System.in);
-//         String RCB = scan.nextLine();
+// Scanner scan = new Scanner(System.in);
+// String RCB = scan.nextLine();
 
-//         if (RCB.equals("win"))
-//         {
-//             System.out.println("cup");
-//         }
-//         else
-//         {
-//             System.out.println("papu");
-//         }
+// if (RCB.equals("win"))
+// {
+// System.out.println("cup");
+// }
+// else
+// {
+// System.out.println("papu");
+// }
 
-//     }
+// }
 // }
 
 // ----------------------------------------------------------------------------------------------------------
 
 // public class demo {
 
-//     public static void main(String[] args) {
-//         int score = 50;
+// public static void main(String[] args) {
+// int score = 50;
 
-//         if (score > 50 && score < 60) {
-//             System.out.println("Need to improve");
-//         }
+// if (score > 50 && score < 60) {
+// System.out.println("Need to improve");
+// }
 
-//         else if (score > 60 && score <= 90) {
-//             System.out.println("Iphone");
-//         }
+// else if (score > 60 && score <= 90) {
+// System.out.println("Iphone");
+// }
 
-//         else if (score > 90) {
-//             System.out.println("mac");
-//         }
+// else if (score > 90) {
+// System.out.println("mac");
+// }
 
-//     }
+// }
 // }
 
 // ----------------------------------------------------------------------------------------------------------
@@ -65,46 +65,46 @@
 
 // public class demo {
 
-//     public static void main(String[] args) {
+// public static void main(String[] args) {
 
-//         Scanner scan = new Scanner(System.in);
+// Scanner scan = new Scanner(System.in);
 
-//         int score = scan.nextInt();
-//         int score1 = scan.nextInt();  
+// int score = scan.nextInt();
+// int score1 = scan.nextInt();
 
-//         String result = score > score1 ? "score" : "score1";
-//         System.out.println(result);
+// String result = score > score1 ? "score" : "score1";
+// System.out.println(result);
 
-//         scan.close();
-//     }
+// scan.close();
+// }
 // }
 
 // ----------------------------------------------------------------------------------------------------------
 
 // public class demo {
 
-//     public static void main(String[] args) {
+// public static void main(String[] args) {
 
-//          boolean rain = false;
+// boolean rain = false;
 
-//         String result = rain ? "umnerlla" : "sunlight";
-//         System.out.println(result);
-//     }
+// String result = rain ? "umnerlla" : "sunlight";
+// System.out.println(result);
+// }
 // }
 
 // ----------------------------------------------------------------------------------------------------------
 
 // public class demo {
 
-//     public static void main(String[] args) {
+// public static void main(String[] args) {
 
-//         for (int i= 10; i>=1; i = i-1)
-//         {
-//             System.out.println(i);
-//         }
+// for (int i= 10; i>=1; i = i-1)
+// {
+// System.out.println(i);
+// }
 
-//     }
-// } 
+// }
+// }
 
 // ----------------------------------------------------------------------------------------------------------
 
@@ -112,56 +112,56 @@
 
 // public class demo {
 
-//     public static void main(String[] args) {
+// public static void main(String[] args) {
 
-//         int[] score = new int[5];
+// int[] score = new int[5];
 
-//         Scanner scan = new Scanner(System.in);
+// Scanner scan = new Scanner(System.in);
 
-//         score[0] = scan.nextInt();
-//         score[1] = scan.nextInt();
-//         score[2] = scan.nextInt();
-//         score[3] = scan.nextInt();
-//         score[4] = scan.nextInt();
+// score[0] = scan.nextInt();
+// score[1] = scan.nextInt();
+// score[2] = scan.nextInt();
+// score[3] = scan.nextInt();
+// score[4] = scan.nextInt();
 
-//         System.out.println(score[0] + score[1] + score[2] + score[3] + score[4]);
+// System.out.println(score[0] + score[1] + score[2] + score[3] + score[4]);
 
-//         scan.close();
-//     }
+// scan.close();
+// }
 // }
 
 // ----------------------------------------------------------------------------------------------------------
 
 // public class demo {
 
-//     public static void main(String[] args) {
+// public static void main(String[] args) {
 
-//         for (int j =1 ; j<=3; j++)
-//         {
-//             for (int i = 1; i<=1; i++)
-//             {
-//                 System.out.print("*");
-//             }
-//             System.out.println();
-//         }
+// for (int j =1 ; j<=3; j++)
+// {
+// for (int i = 1; i<=1; i++)
+// {
+// System.out.print("*");
+// }
+// System.out.println();
+// }
 
-//     }
+// }
 // }
 
 // ----------------------------------------------------------------------------------------------------------
 
 // public class demo {
 
-//     public static void main(String[] args) {
+// public static void main(String[] args) {
 
-//         for (int j = 3; j >= 1; j--){
-//             for (int i =1; i<=j; i++){
-//                 System.out.print("*");
-//             }
-//             System.out.println();
-//         }
+// for (int j = 3; j >= 1; j--){
+// for (int i =1; i<=j; i++){
+// System.out.print("*");
+// }
+// System.out.println();
+// }
 
-//     }
+// }
 // }
 
 // ----------------------------------------------------------------------------------------------------------
@@ -170,36 +170,15 @@
 
 // public class demo {
 
-//     public static void main(String[] args) {
+// public static void main(String[] args) {
 
-//         int j =1;
+// int j =1;
 
-//         while (j<=10){
-//             System.out.println(j);
-//             j++;
-//         }
-//     }
-// } 
-
-// ----------------------------------------------------------------------------------------------------------
-
-// import java.util.Random;
-
-// public class demo {
-
-//     public static void main(String[] args) {
-
-//         Random rand = new Random();
-
-//         int newnum = 0;
-
-//         while (newnum !=5) {
-
-//             newnum = rand.nextInt(6);
-//             System.out.println(newnum);
-
-//         }
-//     }
+// while (j<=10){
+// System.out.println(j);
+// j++;
+// }
+// }
 // }
 
 // ----------------------------------------------------------------------------------------------------------
@@ -208,7 +187,28 @@
 
 // public class demo {
 
-//     public static void main(String[] args) {
+// public static void main(String[] args) {
+
+// Random rand = new Random();
+
+// int newnum = 0;
+
+// while (newnum !=5) {
+
+// newnum = rand.nextInt(6);
+// System.out.println(newnum);
+
+// }
+// }
+// }
+
+// ----------------------------------------------------------------------------------------------------------
+
+// import java.util.Random;
+
+// public class demo {
+
+// public static void main(String[] args) {
 
 // }
 
@@ -218,56 +218,36 @@
 
 // public class demo {
 
-//     public static void main(String[] args) {
+// public static void main(String[] args) {
 
-//         Scanner scan = new Scanner(System.in);
-//         int count = 0;
+// Scanner scan = new Scanner(System.in);
+// int count = 0;
 
-//         do{
-//             System.out.println("Enter the number > 10");
-//             count = scan.nextInt();
+// do{
+// System.out.println("Enter the number > 10");
+// count = scan.nextInt();
 
-//         }while(count < 10);
+// }while(count < 10);
 
-//         scan.close();
+// scan.close();
 
-//     }
+// }
 // }
 
 // ----------------------------------------------------------------------------------------------------------
 
 // public class demo {
 
-//     void greeting()
-//     {
-//         System.out.println("vanakam");
-//     }
-
-//     public static void main(String[] args) {
-
-//         demo obj = new demo();
-//         obj.greeting();
-//     }
-
+// void greeting()
+// {
+// System.out.println("vanakam");
 // }
 
-// ----------------------------------------------------------------------------------------------------------
+// public static void main(String[] args) {
 
-// public class demo {
-
-//     void display(int a , int b){
-//         System.out.println(a+b);
-//     }
-
-//     void display(int a, int b, int c){
-//         System.out.println(a+b+c);
-//     }
-
-//     public static void main(String[] args) {
-
-//         demo obj = new demo();
-//         obj.display(2, 3,4);
-//     }
+// demo obj = new demo();
+// obj.greeting();
+// }
 
 // }
 
@@ -275,220 +255,250 @@
 
 // public class demo {
 
-//     public static void main(String[] args) {
+// void display(int a , int b){
+// System.out.println(a+b);
+// }
 
-//         String num[] = { "one", "two" };
+// void display(int a, int b, int c){
+// System.out.println(a+b+c);
+// }
 
-//         for (String var : num) {
-//             System.out.println(var);
-//         }
-//     }
+// public static void main(String[] args) {
+
+// demo obj = new demo();
+// obj.display(2, 3,4);
+// }
+
 // }
 
 // ----------------------------------------------------------------------------------------------------------
 
-//interface animal{
-//	int mark = 20;
-//	void sound();
-//}
+// public class demo {
+
+// public static void main(String[] args) {
+
+// String num[] = { "one", "two" };
+
+// for (String var : num) {
+// System.out.println(var);
+// }
+// }
+// }
+
+// ----------------------------------------------------------------------------------------------------------
+
+// interface animal{
+// int mark = 20;
+// void sound();
+// }
 //
 //
-//class catt implements animal{
-//	
-//	@Override
-//	public void sound() {
-//		System.out.println("meow");
-//	}
-//}
+// class catt implements animal{
 //
-//public class demo{
-//	public static void main(String[] args) {
-//		
-//	catt c1 = new catt();
-//	c1.sound();
-//	System.out.println(c1.mark);
-//	
-//	}
-//	
-//}
+// @Override
+// public void sound() {
+// System.out.println("meow");
+// }
+// }
+//
+// public class demo{
+// public static void main(String[] args) {
+//
+// catt c1 = new catt();
+// c1.sound();
+// System.out.println(c1.mark);
+//
+// }
+//
+// }
 
 // ----------------------------------------------------------------------------------------------------------
 
 // interface playable {
-//     void play();
+// void play();
 
 // }
 
 // class guitar implements playable {
 
-//     @Override
-//     public void play() {
-//         System.out.println("play guitar");
+// @Override
+// public void play() {
+// System.out.println("play guitar");
 
-//     }
+// }
 
 // }
 
 // class piano implements playable {
 
-//     @Override
-//     public void play() {
-//         System.out.println("play piano");
+// @Override
+// public void play() {
+// System.out.println("play piano");
 
-//     }
+// }
 // }
 
 // public class demo {
-//     public static void main(String[] args) {
+// public static void main(String[] args) {
 
-//         piano c1 = new piano();
-//         c1.play();
-//         guitar g1 = new guitar();
-//         g1.play();
+// piano c1 = new piano();
+// c1.play();
+// guitar g1 = new guitar();
+// g1.play();
 
-//     }
+// }
 
 // }
 
 // ----------------------------------------------------------------------------------------------------------
 
 // interface read {
-//     void readable();
+// void readable();
 // }
 
 // interface write {
-//     void writable();
+// void writable();
 // }
 
 // interface store {
-//     void storable();
+// void storable();
 // }
 
 // class ca implements read, write, store {
 
-//     @Override
-//     public void readable() {
+// @Override
+// public void readable() {
 
-//         System.out.println("reading");
+// System.out.println("reading");
 
-//     }
+// }
 
-//     @Override
-//     public void writable() {
+// @Override
+// public void writable() {
 
-//         System.out.println("writing");
+// System.out.println("writing");
 
-//     }
+// }
 
-//     @Override
-//     public void storable() {
+// @Override
+// public void storable() {
 
-//         System.out.println("storing");
+// System.out.println("storing");
 
-//     }
+// }
 // }
 
 // public class demo {
-//     public static void main(String[] args) {
-//         ca r1 = new ca();
+// public static void main(String[] args) {
+// ca r1 = new ca();
 
-//         r1.readable();
-//         r1.writable();
-//         r1.storable();
+// r1.readable();
+// r1.writable();
+// r1.storable();
 
-//     }
+// }
 
 // }
 
 // ----------------------------------------------------------------------------------------------------------
-
-
 
 // public class demo{
-// 	public static void main(String[ ] args) {
-		
+// public static void main(String[ ] args) {
 
-// 		try {
-// 			int a = 10;
-// 			throw new ArithmeticException();
-// 		}
-// 		catch(ArithmeticException e)
-// 		{
-// 			System.out.println(e);
-// 		}
-// 		System.out.println("prgram ended");
-// 	}
+// try {
+// int a = 10;
+// throw new ArithmeticException();
+// }
+// catch(ArithmeticException e)
+// {
+// System.out.println(e);
+// }
+// System.out.println("prgram ended");
+// }
 // }
 
-
 // ----------------------------------------------------------------------------------------------------------
-
-
-
 
 // import java.util.Scanner;
 
 // class divisioneg{
-// 	void dividenum(int num, int den) {
-		
-// 		try {
-// 			int result = num/den;
-// 			System.out.println(result);
-// 		}
-// 		catch(ArithmeticException e) {
-// 			System.err.print("cannot divide");
-// 		}
-// 	}
+// void dividenum(int num, int den) {
+
+// try {
+// int result = num/den;
+// System.out.println(result);
 // }
-
-
+// catch(ArithmeticException e) {
+// System.err.print("cannot divide");
+// }
+// }
+// }
 
 // public class demo{
-// 	public static void main(String[ ] args) {
-		
-// 		Scanner scan = new Scanner(System.in);
-// 		int n1 = scan.nextInt();
-// 		int n2 = scan.nextInt();
-		
-// 		divisioneg d1 = new divisioneg();
-// 		d1.dividenum(n1, n2);
-		
-// 	}
-    
+// public static void main(String[ ] args) {
+
+// Scanner scan = new Scanner(System.in);
+// int n1 = scan.nextInt();
+// int n2 = scan.nextInt();
+
+// divisioneg d1 = new divisioneg();
+// d1.dividenum(n1, n2);
+
 // }
 
+// }
 
 // ----------------------------------------------------------------------------------------------------------
-
-
 
 // import java.util.Scanner;
 
 // class invalidageex extends Exception{
-// 	public invalidageex(String message) {
-// 		super(message);
-// 	}
+// public invalidageex(String message) {
+// super(message);
 // }
-
+// }
 
 // class agevalid{
-// 	void checkage(int age) {
-		
-// 		try {
-// 			if(age<0 || age>150)
-// 			{
-// 				throw new invalidageex("age is invalid");			
-// 		}
-// 		else {
-// 			System.out.println("valid age");
-// 		}
-// 	}
-// 		catch (Exception e){
-// 			System.out.println(e);
-			
-// 		}
-// 	}
+// void checkage(int age) {
+
+// try {
+// if(age<0 || age>150)
+// {
+// throw new invalidageex("age is invalid");
+// }
+// else {
+// System.out.println("valid age");
+// }
+// }
+// catch (Exception e){
+// System.out.println(e);
+
+// }
+// }
 // }
 
-
 // ----------------------------------------------------------------------------------------------------------------
+
+// import java.io.FileWriter;
+
+// public class demo{
+// public static void main(String[ ] args) {
+
+// try {
+// FileWriter fw = new FileWriter("output.txt",true);
+// BufferedWriter bw = new BufferedWriter(fw);
+// bw.write("hey man");
+// bw.newLine();
+// bw.write("okay");
+// bw.close();
+
+// System.out.println("success");
+// }catch (Exception e) {
+// System.out.print("something has happened");
+// }
+
+// }
+
+// }
+
+// ----------------------------------------------------------------------------------------------------------
